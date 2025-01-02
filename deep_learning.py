@@ -84,7 +84,7 @@ def train_and_evaluate(model_name, texts, labels, out_dir, dataset_name, file_su
     recalls = []
     f1_scores = []
 
-    rskf = RepeatedStratifiedKFold(n_splits=2, n_repeats=2, random_state=36851234)
+    rskf = RepeatedStratifiedKFold(n_splits=2, n_repeats=5, random_state=36851234)
     logging.info("Starting cross-validation...")
     for i, (train_idx, val_idx) in enumerate(rskf.split(tokenized_dataset['text'], tokenized_dataset['labels'])):
         train_dataset = tokenized_dataset.select(train_idx)

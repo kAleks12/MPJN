@@ -173,7 +173,7 @@ if __name__ == "__main__":
                         default="true", help="Evaluate ensemble. Default is true.")
     parser.add_argument("--features", type=str, choices=["true", "false"],
                         default="true", help="Evaluate feature extraction methods. Default is false.")
-    parser.add_argument("--voting", type=str, choices=["true", "true"],
+    parser.add_argument("--voting", type=str, choices=["true", "false"],
                         default="true", help="Evaluate voting methods. Default is false.")
     parser.add_argument("--extra_logs", type=str, choices=["true", "false"],
                         default="false", help="Save logs for each fold. Default is true.")
