@@ -1,0 +1,7 @@
+Dataset,Model,Feature,Accuracy,Precision,Recall,F1
+thehamkercat_telegram-spam-ham,mshenoda/roberta-spam,evaluation,0.996215844309023,0.9954077311528412,0.9917654707224487,0.993583193870496
+thehamkercat_telegram-spam-ham,prithivMLmods/Spam-Bert-Uncased,evaluation,0.9748132494594063,0.9757241033245286,0.9377841100937337,0.9562043298476783
+FredZhang7_all-scam-spam,mshenoda/roberta-spam,evaluation,0.9929140174675865,0.9942536706996477,0.988396394006122,0.9913050364763929
+FredZhang7_all-scam-spam,prithivMLmods/Spam-Bert-Uncased,evaluation,0.9859805498979629,0.9870672785344039,0.9785403369175674,0.9827772465833517
+prithivMLmods_Spam-Text-Detect-Analysis,mshenoda/roberta-spam,evaluation,0.9996410624551328,1.0,0.9973262032085561,0.9986595174262733
+prithivMLmods_Spam-Text-Detect-Analysis,prithivMLmods/Spam-Bert-Uncased,evaluation,0.9984745154343145,0.9966468281954031,0.99196427291365,0.9942907495043344

@@ -1,0 +1,10 @@
+scikit-learn~=1.6.0
+matplotlib~=3.10.0
+numpy==1.23.0
+imblearn~=0.0
+transformers~=4.47.1
+transformers[torch]~=4.47.1
+datasets~=3.2.0
+torch~=2.5.1+cu118
+imbalanced-learn~=0.13.0
+gensim~=4.3.3
