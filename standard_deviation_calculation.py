@@ -10,7 +10,7 @@ def calculate_std_and_append(folder_path):
 
                 df = pd.read_csv(file_path)
 
-                std_values = df[['Accuracy', 'Precision', 'Recall', 'F1']].std()
+                std_values = df[['Accuracy', 'Precision', 'Recall', 'F1']].std().round(4)
 
                 std_row = pd.DataFrame({
                     'no': ['std_dev'],
